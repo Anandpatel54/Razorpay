@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.vas {
+  height: 200px;
+  width: 200px;
+}
+.vas img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  margin: 30px 40px;
+  border-radius: 20px;
+}
+.sim {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  color: black;
+  margin-left: 70px;
+}
+button {
+  padding: 7px;
+  cursor: pointer;
+}
